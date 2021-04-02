@@ -1,6 +1,7 @@
 ## Binary Search Tree
+Implementation of Binary Search tree in ruby as part of "The Odin Project" curriculum.
 
-B binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree whose internal nodes each store a key greater than all the keys in the node's left subtree and less than those in its right subtree. A binary tree is a type of data structure for storing data such as numbers in an organized way.[wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
+A binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree whose internal nodes each store a key greater than all the keys in the node's left subtree and less than those in its right subtree. A binary tree is a type of data structure for storing data such as numbers in an organized way.[wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
 
 ### Methods Implemented
 1. A #build_tree method which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a balanced binary tree full of Node objects appropriately placed (sorted and unique elements). The #build_tree method returns the level-1 root node.
