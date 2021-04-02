@@ -10,6 +10,6 @@ B binary search tree (BST), also called an ordered or sorted binary tree, is a r
 5. A #level_order method that returns an array of values. This method traverses the tree in breadth-first level order. This method has be implemented using both iteration and recursion.
 6. #inorder, #preorder, and #postorder methods that returns an array of values. Each method traverses the tree in their respective depth-first order.
 7. A #height method which accepts a node and returns its height.
-8. A #depth method which accepts a node and returns its depth. (Difference between height and depth)[https://stackoverflow.com/questions/2603692/what-is-the-difference-between-tree-depth-and-height#:~:text=The%20depth%20of%20a%20node,have%20a%20height%20of%200.]
+8. A #depth method which accepts a node and returns its depth. [Difference between height and depth](https://stackoverflow.com/questions/2603692/what-is-the-difference-between-tree-depth-and-height#:~:text=The%20depth%20of%20a%20node,have%20a%20height%20of%200.)
 9. A a #balanced? method which checks if the tree is balanced.
 10. A #rebalance method which rebalances an unbalanced tree.
