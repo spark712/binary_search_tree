@@ -140,6 +140,7 @@ class Tree
     self.root = build_tree(array)
   end
 
+  #this method was written and shared by a student on TOP's discord
   def pretty_print(node = @root, prefix = '', is_left = true)
     pretty_print(node.right, "#{prefix}#{is_left ? '│   ' : '    '}", false) if node.right
     puts "#{prefix}#{is_left ? '└── ' : '┌── '}#{node.data}"
